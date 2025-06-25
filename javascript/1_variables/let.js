@@ -1,3 +1,5 @@
+// let and const are block-scoped, meaning they only exist within the block 
+// (e.g., within an if statement or loop).
 function exampleLet()
 {
     let name = "Supriti";
@@ -10,3 +12,5 @@ function exampleLet()
 }
 
 exampleLet();
+
+

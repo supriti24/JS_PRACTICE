@@ -1,3 +1,6 @@
+// var is function-scoped, meaning it's accessible within the function it's defined in.
+
+
 function exampleVar()
 {
     var name = "Supriti";
@@ -10,3 +13,4 @@ function exampleVar()
 }
 
 exampleVar();
+// console.log(name); // OUTPUT : ReferenceError: name is not defined
